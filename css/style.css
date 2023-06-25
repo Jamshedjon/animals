@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "Pimpaw Cat";
+  src: url("../fonts/PimpawCat.woff2") format("woff2"),
+    url("../fonts/PimpawCat.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  color: black;
+  background-color: #fff;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px 5px aqua;
+  padding: 20px 40px;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 26px;
+}
+a:hover {
+  color: rgb(70, 236, 15);
+  background-color: #2306f9;
+  box-shadow: 5px 5px 5px 5px rgb(229, 11, 11);
+  font-size: 20px;
+}
+body {
+  font-family: "Pimpaw Cat";
+}
+
+.section-menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/section-menu-bg.jpg");
+}
+.section-list {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  gap: 50px;
+}
+.section-sutemizuvchilar {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/sut-emizivchilar-bg.jpg");
+}
+
+.section-sudralib-yuruvchilar {
+  background: url("../img/sudraluvchilar-bg.jpg");
+}
+
+.section-baliqlar {
+  background: url("../img/baliqlar-bg.jpg");
+}
+
+.section-qushlar {
+  background: url("../img/qushlar-bg.jpg");
+}
+/* sutemizuvchilar */
+.section-sher {
+  background: url("../img/sher.jpg");
+}
+.section-tiger {
+  background: url("../img/tiger.jpg");
+}
+.section-echki {
+  background: url("../img/echki.jpg");
+}
+.section-ot {
+  background: url("../img/ot.jpg");
+}
+.section-eshshak {
+  background: url("../img/eshshak.jpg");
+}
+.section-it {
+  background: url("../img/it.jpg");
+}
+/* sudraluvchilar */
+
+.section-ilon {
+  background: url("../img/ilon.jpg");
+}
+.section-timsoh {
+  background: url("../img/timsoh.jpg");
+}
+.section-toshbaqa {
+  background: url("../img/toshbaqa.jpg");
+}
+.section-kaltakesak {
+  background: url("../img/kaltakesak.jpg");
+}
+.section-xameleon {
+  background: url("../img/xamelion.jpg");
+}
+/* baliqlar */
+.section-dengiz-qisqichbaqasi {
+  background: url("../img/qisqichbaqa.jpg");
+}
+.section-kit {
+  background: url("../img/kit.jpg");
+}
+.section-nahang {
+  background: url("../img/nahang.jpg");
+}
+.section-pufferfish {
+  background: url("../img/puffer-fish.jpg");
+}
+.section-moviy-rang-baliq {
+  background: url("../img/blue-tang.jpg");
+}
+/* qushlar */
+.section-flamingo {
+  background: url("../img/flamingo.jpg");
+}
+.section-qarga {
+  background: url("../img/qarga.jpg");
+}
+.section-tovuq {
+  background: url("../img/tovuq.jpg");
+}
+.section-burgut {
+  background: url("../img/burgut.jpg");
+}
+.section-tovus {
+  background: url("../img/tovus.jpg");
+}
+.section-kabutar {
+  background: url("../img/kabutar.jpg");
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-attachment: fixed;
+}
